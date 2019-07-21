@@ -34,7 +34,9 @@ public class Principal {
         operacion.establecerPromedioSalarios();
 
         System.out.printf("%s\n", operacion);
-
-        //System.out.printf("%s\n",entrenadores[i]);
+        
+        for (int i = 0; i < entrenadores.length; i++) {
+            System.out.printf("%s\n", entrenadores[i]);
+        }
     }
 }

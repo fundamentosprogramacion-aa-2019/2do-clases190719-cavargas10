@@ -27,5 +27,3 @@ public class Principal {
                 + "Nombre %s - Edad %d \n", entrenador1.getNombre(), entrenador1.getEdad());
     }
 }
-
-}

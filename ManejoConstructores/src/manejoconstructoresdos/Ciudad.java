@@ -19,12 +19,12 @@ public class Ciudad {
         nombre = m;
     }
 
-    public void establecerProvincia(String m) {
-        provincia = m;
-    }
-
     public String obtenerNombre() {
         return nombre;
+    }
+
+    public void establecerProvincia(String m) {
+        provincia = m;
     }
 
     public String obtenerProvincia() {
@@ -33,7 +33,7 @@ public class Ciudad {
 
     public String toString() {
         String cadena = String.format("Ciudad:\n\tNombre:%s\n\tProvincia:%s\n",
-                 obtenerNombre(), obtenerProvincia());
+                obtenerNombre(), obtenerProvincia());
         return cadena;
     }
 }

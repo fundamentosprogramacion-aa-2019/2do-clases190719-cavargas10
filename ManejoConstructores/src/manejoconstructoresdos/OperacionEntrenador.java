@@ -50,8 +50,8 @@ public class OperacionEntrenador {
     }
 
     public String toString() {
-        String cadena = String.format("Promedio Edades: %.2f\nPromedio Salarios: %.2f\n",
-                 obtenerPromedioEdades(), obtenerPromedioSalarios());
+        String cadena = String.format("Promedio Edades: %.2f\nPromedio Salarios:"
+                + " %.2f\n", obtenerPromedioEdades(), obtenerPromedioSalarios());
 
         return cadena;
     }

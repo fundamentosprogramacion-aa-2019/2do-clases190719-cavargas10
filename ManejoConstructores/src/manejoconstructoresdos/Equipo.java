@@ -19,12 +19,12 @@ public class Equipo {
         nombre = v;
     }
 
-    public void establecerCiudad(Ciudad c) {
-        ciudad = c;
-    }
-
     public String obtenerNombre() {
         return nombre;
+    }
+
+    public void establecerCiudad(Ciudad c) {
+        ciudad = c;
     }
 
     public Ciudad obtenerCiudad() {
